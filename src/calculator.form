@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="calculator">
+  <grid id="27dc6" binding="mainPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="304" height="275"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="1465e" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e5605" class="javax.swing.JList" binding="functionsList">
+            <constraints/>
+            <properties>
+              <model/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5b24" binding="historyPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="21763" binding="scrollContainerPane">
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="84fc2" class="javax.swing.JTextArea" binding="historyTextArea">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="7e49c" binding="functionsPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9a229" class="javax.swing.JTextField" binding="formulaInput">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <component id="882af" class="javax.swing.JButton" binding="evalButton">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="2"/>
+          <text value="Evaluate!"/>
+          <verticalAlignment value="3"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
